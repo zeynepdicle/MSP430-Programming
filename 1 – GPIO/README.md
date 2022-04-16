@@ -3,10 +3,10 @@ This repo contains the English translation of the article [MSP430 Programming wi
 [![](https://img.shields.io/badge/YouTubeVideo-passing-880414)](https://www.youtube.com/watch?v=iGFOYuTLY2k) 
 
 ## :closed_book:What is GPIO(General Purpose Input/Output)
-GPIO is a general purpose input and output pin. We can perform many different operations with these pins. With the GPIO pin, you can do many operations such as led blink, reading data from the button, driving a motor, reading the data from the sensor. Each microcontroller has a different number of GPIO pin connections. The MSP430G22553 microcontroller we use has 16 GPIO pins.
+GPIO is a general purpose input and output pin. You can perform many different operations with these pins. With the GPIO pin, you can do many operations such as led blink, reading data from the button, driving a motor, reading the data from the sensor. Each microcontroller has a different number of GPIO pin connections. The MSP430G22553 microcontroller we use has 16 GPIO pins.
 
 ## :globe_with_meridians:	GPIO on MSP430
-While programming the microcontroller, we will use the [technical document](https://www.ti.com/product/MSP430G2553#tech-docs) published by manufacturer to users. We can examine the [datasheet](https://www.ti.com/lit/ds/symlink/msp430g2553.pdf?ts=1638097936795) and [user guide](https://www.ti.com/lit/ug/slau144j/slau144j.pdf?ts=1638097764802&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FMSP430G2553%253FkeyMatch%253DMSP430G2553%2526tisearch%253Dsearch-everything%2526usecase%253DGPN) documents published for the MSP430G2X53 microcontroller family. We will use these documents when programming microcontrollers.
+While programming the microcontroller, you will use the [technical document](https://www.ti.com/product/MSP430G2553#tech-docs) published by manufacturer to users. You can examine the [datasheet](https://www.ti.com/lit/ds/symlink/msp430g2553.pdf?ts=1638097936795) and [user guide](https://www.ti.com/lit/ug/slau144j/slau144j.pdf?ts=1638097764802&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FMSP430G2553%253FkeyMatch%253DMSP430G2553%2526tisearch%253Dsearch-everything%2526usecase%253DGPN) documents published for the MSP430G2X53 microcontroller family. You will use these documents when programming microcontrollers.
 
 The pinout of the MSP430G22553 microcontroller, which is in the TI LaunchPad MSP430 development kit, is shown below.
 
@@ -43,8 +43,8 @@ Bit = 1: Pullup/pulldown resistor active
 ⤷Other than these, pins; Function Select Registers `PxSEL` and `PxSEL2` can also be configured as Pin Oscillator, `P1` and `P2` Interrupts, Configuring Unused Port Pins.
 
 ## :rocket:Code
-We will write your code to flash the green led on the development board. In this software, we will use the Code Composer Studio IDE development environment. After downloading and installing the application, we click on the "new project" tab and create a new project.
-Make sure you choose the right microcontroller here. It is connected to the P1.0 pin of our green led microcontroller on the development board we use.
+You will write your code to flash the green led on the development board. In this software, we will use the Code Composer Studio IDE development environment. After downloading and installing the application, you click on the "new project" tab and create a new project.
+Make sure you choose the right microcontroller here. It is connected to the P1.0 pin of our green led microcontroller on the development board you use.
 
 ```c
 #include <msp430.h>				
