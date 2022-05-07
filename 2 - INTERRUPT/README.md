@@ -1,9 +1,9 @@
-This repo contains the English translation of the article [MSP430 Programming with TI (Texas Instruments) LaunchPad – INTERRUPT](https://sisterslab.co/ti-texas-instruments-launchpad-ile-msp430-programlama-interrupt/) that I wrote on [SistersLab](https://sisterslab.co/).
+This repo contains the English translation of the article [MSP430 Programming with TI (Texas Instruments) LaunchPad – INTERRUPT](https://sisterslab.co/ti-texas-instruments-launchpad-ile-msp430-programlama-interrupt/) that I wrote at [SistersLab](https://sisterslab.co/).
 
 [![](https://img.shields.io/badge/YouTubeVideo-passing-880414)](https://www.youtube.com/shorts/WCnWrJF-mnI) 
 
 ## :closed_book:What is INTERRUPT
-It is the peripheral unit where we perform the cutting operations. Interrupt plays an important role in microcontrollers such as MSP430. It is used for rapid response, scalability and detection of rare events. In embedded programming, they are usually triggers that cause the interrupt code to deviate as its instructions continue in the order in which they are specified. The reason for entering the interrupt here may be due to the internal variable, it may be with an external connection.
+It is the peripheral unit which we perform the cutting operations.Interrupt plays an important role in microcontrollers like the MSP430. It is used for fast response, scalability and detection of rare events. In embedded programming, they are the triggers that cause the interrupt code to deviate while continuing in the order the code was written. The reason for entering the interrupt here may be due to the internal variable, it may be with an external connection.
 
 ## :globe_with_meridians: INTERRUPT on MSP430
 While programming all the microcontrollers we use, we make use of the technical documents published by the manufacturers and write our code according to the information there. Using interrupts in the MSP430 makes our microcontroller respond faster and allows the CPU to divide more time to processing as well as take advantage of lower power. MSP430 uses interrupt to detect when a button is pressed or data comes from a sensor, oscillator errors and other conditions.
