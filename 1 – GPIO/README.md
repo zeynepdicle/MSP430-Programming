@@ -1,4 +1,4 @@
-This repo contains the English translation of the article [MSP430 Programming with TI (Texas Instruments) LaunchPad – GPIO](https://sisterslab.co/ti-launchpad-ile-msp430-programlama-gpio/) that I wrote on [SistersLab](https://sisterslab.co/).
+This repo contains the English translation of the article [MSP430 Programming with TI (Texas Instruments) LaunchPad – GPIO](https://sisterslab.co/ti-launchpad-ile-msp430-programlama-gpio/) that I wrote at [SistersLab](https://sisterslab.co/).
 
 [![](https://img.shields.io/badge/YouTubeVideo-passing-880414)](https://www.youtube.com/watch?v=iGFOYuTLY2k) 
 
