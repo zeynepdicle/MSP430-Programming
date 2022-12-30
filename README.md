@@ -1,19 +1,19 @@
 # MSP430 Programming
-I am blogging at SistersLab. Series [getting to know peripherals with MSP430 programming](https://sisterslab.co/texas-instruments-launchpad-ile-msp430-mikrodenetleyicisi-programlamaya-giris/). This series translate in English in this repo. 
+As a blogger at [SistersLab](https://sisterslab.co/texas-instruments-launchpad-ile-msp430-mikrodenetleyicisi-programlamaya-giris/), I am currently exploring the peripherals available on MSP430 microcontrollers through a programming series. The series, which delves into the use of GPIO, interrupts, and ADC, is translated into English and housed in this repository.
 - [GPIO](https://github.com/zeynepdicle/MSP430-Programming/tree/main/1%20%E2%80%93%20GPIO)
 - [INTERRUPT](https://github.com/zeynepdicle/MSP430-Programming/tree/main/2%20-%20INTERRUPT)
 - [ADC](https://github.com/zeynepdicle/MSP430-Programming/tree/main/3%20%E2%80%93%20ADC)
 
-Texas Instruments (TI) MSP-EXP430G2ET development board is used. Sample applications have been developed by recognizing the peripherals with the C programming language.
+The Texas Instruments (TI) MSP-EXP430G2ET development board is utilized in the creation of sample applications that utilize the C programming language to showcase the capabilities of the various peripherals.
 
 ## :closed_book:What is MSP430 ?
-MSP (Mixed Signal Processor) microcontrollers have a 16-bit RISC architecture. The most important feature of these microcontrollers is their low power consumption. There are many different series of MSP430 microcontrollers. This series, it has programmed the MSP430G2553 series microcontroller. You can view the [datasheet](https://www.ti.com/tool/MSP-EXP430G2) of the microcontroller here.
+
+MSP (Mixed Signal Processor) microcontrollers are equipped with a 16-bit RISC architecture and are known for their low power consumption. There are numerous series of MSP430 microcontrollers, and this series focuses on programming the MSP430G2553 series microcontroller. You can view the [datasheet](https://www.ti.com/tool/MSP-EXP430G2) for this microcontroller here.
 
 ![This is an image](https://github.com/zeynepdicle/MSP430-Programming/blob/main/LaunchPad.png)
 
+
 ## :computer:Code Composer Studio IDE
-Code Composer Studio IDE (CCStudio or CCS Integrated Development Environment) is used to program our TI LaunchPad MSP430 development board. CCS is used to program TI products.
+The Code Composer Studio IDE (CCStudio or CCS Integrated Development Environment) is used to program the TI LaunchPad MSP430 development board. CCS is specifically designed for programming TI products and is built on the Eclipse open source development environment. It includes a C/C++ compiler, source code editor, project build environment, and debugger.
 
-This development environment is based on the Eclipse open source development environment. It has many features such as C/C++ compiler, source code editor, project build environment and debugger.
-
-MSP430 is programmed at the registers level. The reason for this TI does not have a published library.
+MSP430 microcontrollers are programmed at the register level as TI does not have a published library for them.
