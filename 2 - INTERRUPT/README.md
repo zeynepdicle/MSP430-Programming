@@ -1,29 +1,29 @@
-This repo contains the English translation of the article [MSP430 Programming with TI (Texas Instruments) LaunchPad – INTERRUPT](https://sisterslab.co/ti-texas-instruments-launchpad-ile-msp430-programlama-interrupt/) that I wrote at [SistersLab](https://sisterslab.co/).
+This repository contains the English translation of an article called [MSP430 Programming with TI (Texas Instruments) LaunchPad – INTERRUPT](https://sisterslab.co/ti-texas-instruments-launchpad-ile-msp430-programlama-interrupt/) which was written by me at [SistersLab](https://sisterslab.co/).
 
 [![](https://img.shields.io/badge/YouTubeVideo-passing-880414)](https://www.youtube.com/shorts/WCnWrJF-mnI) 
 
 ## :closed_book:What is INTERRUPT
-It is the peripheral unit which we perform the cutting operations.Interrupt plays an important role in microcontrollers like the MSP430. It is used for fast response, scalability and detection of rare events. In embedded programming, they are the triggers that cause the interrupt code to deviate while continuing in the order the code was written. The reason for entering the interrupt here may be due to the internal variable, it may be with an external connection.
+Interrupts are a key feature of microcontrollers like the MSP430, and are used for fast response, scalability, and detection of rare events. In embedded programming, interrupts are triggers that cause the interrupt code to deviate from the main code flow and execute in a specific order. These triggers can be internal variables or external connections. Interrupts play an important role in performing cutting operations in the peripheral unit.
 
 ## :globe_with_meridians: INTERRUPT on MSP430
-While programming all the microcontrollers we use, we make use of the technical documents published by the manufacturers and write our code according to the information there. Using interrupts in the MSP430 makes our microcontroller respond faster and allows the CPU to divide more time to processing as well as take advantage of lower power. MSP430 uses interrupt to detect when a button is pressed or data comes from a sensor, oscillator errors and other conditions.
+When programming any microcontroller, it is important to refer to the technical documents published by the manufacturer and write the code based on the information provided. Interrupts are a useful feature of the MSP430 microcontroller because they allow the CPU to respond faster and divide its time more efficiently between processing and power management. Interrupts can be used to detect when a button is pressed, when data is received from a sensor, when there are oscillator errors, and in other situations. Using interrupts in the MSP430 can improve the performance and power efficiency of the device.
 
-The MSP430 microcontroller we use has three types of interrupts.
+The MSP430 microcontroller has three types of interrupts available for use.
 
 ### ⤷ SYSTEM RESET
 
-The system resets when this interrupt is triggered.
+This interrupt will cause the system to reset when triggered.
 
 ### ⤷(NON)-MASKABLE NMI
 
-These interrupts cannot be masked. This interrupt indicates critical state these are fault handlers such as oscillator faults and flash access violation.
+These interrupts cannot be masked and are used to indicate critical states or fault conditions, such as oscillator faults and flash access violations. They are used as fault handlers.
 
 ### ⤷MASKABLE
 
-MSP430 is the most used interrupt type among interrupt types. It is caused by peripherals with interrupt capability, including WDT (Watchdog Timer).
+The MSP430 has a type of interrupt called the peripheral interrupt, which is the most commonly used type. It is triggered by peripherals with interrupt capability, such as the watchdog timer (WDT).
 
 ## :book:Interrupt Priorities
-It is possible that there is more than one interrupt state in the algorithm in our project. In this case, our microcontroller has interrupt priorities. For the MSP340 these are fixed. For this, there is a priority table in the user guide document. Since the table is large, I will not repeat it here. You can write your code in your own project according to your algorithm.
+It is possible that there may be multiple interrupt states in the algorithm of our project. In this case, the MSP430 microcontroller has fixed interrupt priorities to handle this situation. The priority table can be found in the user guide document. Since the table is large, it will not be included here. You can write your code according to your algorithm and the priorities listed in the table.
 
 ## :rocket:Code
 ```c
