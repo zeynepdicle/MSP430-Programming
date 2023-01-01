@@ -1,4 +1,4 @@
-In [this article](https://sisterslab.co/ti-texas-instruments-launchpad-ile-msp430-programlama-adc/) of the series, I explained what ADC is from peripherals and wrote the first code with the CCS program.
+In [this article](https://sisterslab.co/ti-texas-instruments-launchpad-ile-msp430-programlama-adc/) of the series, I explained what ADC (analog-to-digital converter) is, which is a peripheral, and wrote the first code using the CCS program.
 
 [Blog](https://sisterslab.co/ti-texas-instruments-launchpad-ile-msp430-programlama-adc/) , 
 [YouTube](https://www.youtube.com/shorts/YlMo0DHtB7c?&ab_channel=Dicle) , 
